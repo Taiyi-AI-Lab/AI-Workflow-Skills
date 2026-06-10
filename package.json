@@ -1,0 +1,28 @@
+{
+  "name": "@taiyi-ai-lab/ai-workflow-skills",
+  "version": "0.0.0",
+  "private": true,
+  "description": "AI Workflow Skills repository for SKILL.md-compatible agent skills. This package.json only ships maintainer scripts; per-skill versions live in skills/<name>/manifest.json.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/Taiyi-AI-Lab/AI-Workflow-Skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Taiyi-AI-Lab/AI-Workflow-Skills.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "release": "node scripts/release/cut-release.mjs",
+    "release:dry": "node scripts/release/cut-release.mjs --dry-run",
+    "list": "node scripts/release/list-skills.mjs",
+    "pack": "node scripts/release/pack-skill.mjs",
+    "pack:all": "node scripts/release/pack-skill.mjs --all",
+    "readme:sync": "node scripts/release/update-readme.mjs",
+    "readme:check": "node scripts/release/update-readme.mjs --check",
+    "check:python": "python3 -m compileall -q skills",
+    "check:sensitive": "node scripts/release/check-sensitive.mjs",
+    "validate": "npm run list && npm run pack:all && npm run readme:check && npm run check:python && npm run check:sensitive"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "grpo-finetune",
+  "version": "2.0.0",
+  "category": "AI Training / Fine-Tuning",
+  "description": "End-to-end GRPO fine-tuning pipeline with reward functions, training templates, evaluation, and troubleshooting guidance.",
+  "homepage": "https://github.com/Taiyi-AI-Lab/AI-Workflow-Skills/tree/main/skills/grpo-finetune",
+  "compat": [
+    "claude-code",
+    "claude-ai",
+    "cursor",
+    "codex-cli",
+    "gemini-cli",
+    "opencode"
+  ]
+}

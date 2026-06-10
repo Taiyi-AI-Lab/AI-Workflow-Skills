@@ -1,0 +1,30 @@
+{
+  "name": "ai-workflow-skills",
+  "owner": {
+    "name": "Taiyi-AI-Lab"
+  },
+  "metadata": {
+    "description": "AI Workflow Skills repository with reusable AI, data, and model workflow agent skills.",
+    "version": "0.0.0"
+  },
+  "plugins": [
+    {
+      "name": "grpo-finetune-skills",
+      "description": "Skill for running an end-to-end GRPO fine-tuning pipeline with reward functions, training templates, evaluation, and troubleshooting guidance.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/grpo-finetune"
+      ]
+    },
+    {
+      "name": "mint-lora-training-skills",
+      "description": "Skill for running cloud-hosted MinT LoRA fine-tuning workflows with SFT, DPO, GRPO, evaluation, adapter download, and quota checks.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/mint-lora-training"
+      ]
+    }
+  ]
+}
