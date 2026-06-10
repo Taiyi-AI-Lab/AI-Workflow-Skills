@@ -38,7 +38,7 @@ Highlights:
 - TRL、vLLM、CUDA、OOM、batching など version-sensitive な注意点
 - Reward design、training curve、debugging の reference
 
-Links: [README](./skills/grpo-finetune/README.md) · [SKILL.md](./skills/grpo-finetune/SKILL.md) · <!-- DOWNLOAD:grpo-finetune:start -->_（まだリリースされていません）_<!-- DOWNLOAD:grpo-finetune:end -->
+Links: [README](./skills/grpo-finetune/README.md) · [SKILL.md](./skills/grpo-finetune/SKILL.md) · <!-- DOWNLOAD:grpo-finetune:start -->[Download v2.0.0 .zip](https://github.com/Taiyi-AI-Lab/AI-Workflow-Skills/releases/download/grpo-finetune-v2.0.0/grpo-finetune-2.0.0.zip)<!-- DOWNLOAD:grpo-finetune:end -->
 
 ### [`mint-lora-training`](./skills/mint-lora-training)
 

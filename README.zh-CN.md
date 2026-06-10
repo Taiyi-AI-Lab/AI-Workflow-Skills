@@ -34,7 +34,7 @@ unzip mint-lora-training-1.0.0.zip -d ~/.codex/skills/
 - 覆盖 TRL、vLLM、CUDA、OOM、batching 等版本敏感问题
 - 包含奖励设计、训练曲线分析和故障排查参考文档
 
-链接：[README](./skills/grpo-finetune/README.md) · [SKILL.md](./skills/grpo-finetune/SKILL.md) · <!-- DOWNLOAD:grpo-finetune:start -->_（暂未发布）_<!-- DOWNLOAD:grpo-finetune:end -->
+链接：[README](./skills/grpo-finetune/README.md) · [SKILL.md](./skills/grpo-finetune/SKILL.md) · <!-- DOWNLOAD:grpo-finetune:start -->[下载 v2.0.0 .zip](https://github.com/Taiyi-AI-Lab/AI-Workflow-Skills/releases/download/grpo-finetune-v2.0.0/grpo-finetune-2.0.0.zip)<!-- DOWNLOAD:grpo-finetune:end -->
 
 ### [`mint-lora-training`](./skills/mint-lora-training)
 
