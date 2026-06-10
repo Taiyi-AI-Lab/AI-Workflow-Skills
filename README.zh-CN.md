@@ -49,7 +49,7 @@ unzip mint-lora-training-1.0.0.zip -d ~/.codex/skills/
 - 提供首次运行、监督微调、偏好微调和 RL 工作流
 - 包含支持模型、endpoint、数据格式和常见坑参考
 
-链接：[README](./skills/mint-lora-training/README.md) · [SKILL.md](./skills/mint-lora-training/SKILL.md) · <!-- DOWNLOAD:mint-lora-training:start -->_（暂未发布）_<!-- DOWNLOAD:mint-lora-training:end -->
+链接：[README](./skills/mint-lora-training/README.md) · [SKILL.md](./skills/mint-lora-training/SKILL.md) · <!-- DOWNLOAD:mint-lora-training:start -->[下载 v1.0.0 .zip](https://github.com/Taiyi-AI-Lab/AI-Workflow-Skills/releases/download/mint-lora-training-v1.0.0/mint-lora-training-1.0.0.zip)<!-- DOWNLOAD:mint-lora-training:end -->
 
 ## 维护命令
 

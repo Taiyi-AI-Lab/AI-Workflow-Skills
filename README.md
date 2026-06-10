@@ -55,7 +55,7 @@ Highlights:
 - Workflow guides for first run, supervised fine-tuning, preference tuning, and RL
 - Reference notes for supported models, endpoints, data formats, and known pitfalls
 
-Links: [README](./skills/mint-lora-training/README.md) · [SKILL.md](./skills/mint-lora-training/SKILL.md) · <!-- DOWNLOAD:mint-lora-training:start -->_(no release yet — coming soon)_<!-- DOWNLOAD:mint-lora-training:end -->
+Links: [README](./skills/mint-lora-training/README.md) · [SKILL.md](./skills/mint-lora-training/SKILL.md) · <!-- DOWNLOAD:mint-lora-training:start -->[Download v1.0.0 .zip](https://github.com/Taiyi-AI-Lab/AI-Workflow-Skills/releases/download/mint-lora-training-v1.0.0/mint-lora-training-1.0.0.zip)<!-- DOWNLOAD:mint-lora-training:end -->
 
 ## Maintainer Commands
 
