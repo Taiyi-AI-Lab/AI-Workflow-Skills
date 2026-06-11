@@ -51,6 +51,11 @@ unzip mint-lora-training-1.0.0.zip -d ~/.codex/skills/
 
 链接：[README](./skills/mint-lora-training/README.md) · [SKILL.md](./skills/mint-lora-training/SKILL.md) · <!-- DOWNLOAD:mint-lora-training:start -->[下载 v1.0.0 .zip](https://github.com/Taiyi-AI-Lab/AI-Workflow-Skills/releases/download/mint-lora-training-v1.0.0/mint-lora-training-1.0.0.zip)<!-- DOWNLOAD:mint-lora-training:end -->
 
+## 使用测试报告
+
+- [`grpo-finetune` 本地 GRPO 训练测试报告](./test_report/TRAINING_TEST_REPORT.md)：验证了本地 CUDA 环境下的安装、dry run、正式训练与评估流程。
+- [`mint-lora-training` 云端 MinT LoRA 训练测试报告](./test_report/cloud-training-test-report.md)：验证了 MinT 上的数据转换、SFT 训练、评估、额度检查与 adapter 下载流程。
+
 ## 维护命令
 
 ```bash

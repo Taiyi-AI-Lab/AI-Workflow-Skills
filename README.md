@@ -57,6 +57,15 @@ Highlights:
 
 Links: [README](./skills/mint-lora-training/README.md) · [SKILL.md](./skills/mint-lora-training/SKILL.md) · <!-- DOWNLOAD:mint-lora-training:start -->[Download v1.0.0 .zip](https://github.com/Taiyi-AI-Lab/AI-Workflow-Skills/releases/download/mint-lora-training-v1.0.0/mint-lora-training-1.0.0.zip)<!-- DOWNLOAD:mint-lora-training:end -->
 
+## Usage Test Reports
+
+- [`grpo-finetune` local GRPO training test report](./test_report/TRAINING_TEST_REPORT.md):
+  validates installation, dry run, full training, and evaluation on a local CUDA
+  environment.
+- [`mint-lora-training` cloud MinT LoRA training test report](./test_report/cloud-training-test-report.md):
+  validates data conversion, SFT training, evaluation, quota checks, and adapter
+  download on MinT.
+
 ## Maintainer Commands
 
 ```bash
